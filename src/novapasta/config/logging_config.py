@@ -31,4 +31,5 @@ def configurar_logging(
             ),
             logging.StreamHandler(),
         ],
+        force=True,
     )
